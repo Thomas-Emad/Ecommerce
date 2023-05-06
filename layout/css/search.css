@@ -1,0 +1,97 @@
+.content .title_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title_section {
+  border-bottom: solid 2px #ededed;
+  padding-bottom: 5px;
+  margin: 10px 0;
+}
+summary {
+  display: block;
+  outline: none;
+}
+.content .big_box {
+  padding: 5px;
+  background-color: #eee;
+  border-radius: 10px;
+}
+.content .big_box .parent {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.content .big_box .parent .box {
+  min-width: 20%;
+}
+@media (max-width: 767px) {
+  .content .big_box .parent {
+    justify-content: space-between;
+  }
+  .content .big_box .parent .box {
+    width: 45%;
+  }
+}
+
+.content .product .parent {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+}
+.content .product .parent .main_box {
+  border: solid 1px #ededed;
+  color: inherit;
+  text-decoration: none;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.content .product .parent .main_box img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+.content .product .parent .main_box .info {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.content .product .parent .main_box .info .salary {
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 2px;
+  height: fit-content;
+  border: solid 1px #ddd;
+}
+.content .product .parent .main_box .info .text {
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.price div {
+  background-color: #ddd;
+  border-radius: 100px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 45%;
+}
+@media (max-width: 767px) {
+  .price {
+    flex-direction: column;
+  }
+  .price div {
+    width: 100%;
+  }
+}

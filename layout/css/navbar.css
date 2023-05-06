@@ -1,0 +1,9 @@
+@media (max-width: 767px) {
+  .dropdown {
+    text-align: left !important;
+    margin: 10px 0;
+  }
+  .dropdown-menu[data-bs-popper] {
+    left: 0;
+  }
+}

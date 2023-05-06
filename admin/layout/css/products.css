@@ -1,0 +1,126 @@
+body {
+  position: relative;
+}
+/* Start To Code Main Page Product */
+.content .title_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 2px #ededed;
+  margin-bottom: 20px;
+}
+
+.content .parent {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+}
+.content .parent .main_box {
+  border: solid 1px #ededed;
+  color: inherit;
+  text-decoration: none;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.content .parent .main_box img {
+  display: block;
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+}
+.content .parent .main_box .info {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.content .parent .main_box .info .salary {
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 2px;
+  height: fit-content;
+  border: solid 1px #ddd;
+}
+.content .parent .main_box .info .text {
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Add New Product */
+.content .add_proudct {
+  display: flex;
+  gap: 10px;
+}
+.content .add_proudct .img {
+  width: 30%;
+}
+.content .add_proudct .img input {
+  display: none;
+}
+.content .add_proudct .img label {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  border: dashed 3px #ededed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #777;
+  cursor: pointer;
+}
+
+.content .add_proudct .parent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.content .add_proudct .parent .box {
+  display: flex;
+}
+.content .add_proudct .parent .box :nth-child(1) {
+  width: 100%;
+}
+.content .add_proudct .parent .box :nth-child(2) {
+  width: 50%;
+}
+
+@media (max-width: 450px) {
+  .content .add_proudct .parent .box {
+    flex-direction: column;
+  }
+  .content .add_proudct .parent .box div {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .content .add_proudct {
+    flex-direction: column;
+  }
+  .content .add_proudct .img {
+    width: 100%;
+  }
+}
+
+/* Message Error */
+.alert_mess {
+  animation: alert_mess 0s ease-in 5s forwards;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 10000;
+  width: 70%;
+  box-shadow: 1px 1px 4px 0px #999;
+}
+@keyframes alert_mess {
+  to {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+  }
+}

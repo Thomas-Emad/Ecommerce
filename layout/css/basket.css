@@ -1,0 +1,86 @@
+.content .parent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.content .parent .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border: solid 1px #ddd;
+  border-radius: 10px;
+}
+.content .parent .box .text {
+  width: 80%;
+}
+.content .parent .box .text span {
+  display: block;
+}
+.content .parent .box .info {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.content .parent .box .info input[type="number"] {
+  outline: none;
+  border: solid 1px #999;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.content .buy {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+  .content .parent .box {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .content .parent .box .info {
+    width: 100%;
+  }
+}
+
+/* Style products In box */
+.content .parent .box .product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  border: solid 1px #ddd;
+  padding: 5px;
+}
+.content .parent .box .product .text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+}
+.content .parent .box .product .text .img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #ddd;
+}
+.content .parent .box .product .text b {
+  font-size: 1.1rem;
+}
+.content .parent .box .product .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content .parent .box .product .info .price {
+  font-size: 1.3rem;
+}
+@media (max-width: 767px) {
+  .content .parent .box .product .info {
+    width: fit-content;
+  }
+}

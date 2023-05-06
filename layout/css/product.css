@@ -1,0 +1,84 @@
+.img-silder {
+  display: block;
+  margin: 0 auto;
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.prodcut .parent {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+  width: 100%;
+}
+.prodcut .parent .box,
+.prodcut .last_com,
+.prodcut .comments {
+  border: solid 1px #ddd;
+  border-radius: 10px;
+  padding: 5px;
+  width: 100%;
+}
+.prodcut .parent .info {
+  width: 45%;
+}
+
+@media (max-width: 767px) {
+  .prodcut .parent {
+    flex-direction: column-reverse;
+  }
+  .prodcut .parent .info {
+    width: 100%;
+  }
+}
+
+.prodcut .last_com {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.prodcut .last_com .box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 0.9rem;
+  border-bottom: solid 1px #eee;
+}
+.prodcut .last_com .box .info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #777;
+}
+.prodcut .last_com .box .user_name {
+  color: #444;
+  font-size: 1rem;
+}
+.prodcut .last_com .box .img_profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+.prodcut .last_com .box .change {
+  display: flex;
+  flex-direction: column;
+}
+
+/* IF User Don't Login */
+.locked::after {
+  content: "Can't Add Comment, First Login";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #eee;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
