@@ -36,8 +36,8 @@ Good morning, good evening my friends.👋
  Password: 123456
 
  # Skills used:
- 1- Html, Css, Bootstrap.
- 2- PHP, MySQL, phpmyadmin.
- 3- FontAwesome.
+ 1. Html, Css, Bootstrap.
+ 2. PHP, MySQL, phpmyadmin.
+ 3. FontAwesome.
 
 See you later my friends 👋.
