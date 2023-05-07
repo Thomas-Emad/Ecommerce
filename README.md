@@ -25,9 +25,9 @@ Good morning, good evening my friends.👋
  - Search.
 
  # Types of permissions:
- 1- Owner: He does everything 😃.
- 2- Admin: Wadda Al-Bayaa.
- 3- User: The normal user, who cannot access Dashboard.
+ 1. Owner: He does everything 😃.
+ 2. Admin: Wadda Al-Bayaa.
+ 3. User: The normal user, who cannot access Dashboard.
 
  If you want to try it, go [Here](https://thomas-emad.ml/projects/Ecommerce/index.php).
  
