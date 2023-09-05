@@ -9,6 +9,9 @@ I wish you the best always❤.
 
  You buy the product, then it goes to the basket, and then the process goes to the Owners. The status of the process is limited in terms of rejection, acceptance, reaching the customer, and so on.
 
+ ![Simple Clean Phone Mockup Season Discount Instagram Post](https://github.com/Thomas-Emad/Ecommerce/assets/54818496/3f182ff5-a27d-4241-8c81-c1ec432c5ad1)
+
+
  # The website consists of a number of pages such as:
  1- Dashboard
  - Dashboard.
