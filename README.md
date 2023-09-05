@@ -46,7 +46,7 @@ I wish you the best always❤.
  2. Admin: Wadda Al-Bayaa.
  3. User: The normal user, who cannot access Dashboard.
 
- If you want to try it, go [Here](https://thomas-emad.ml/projects/Ecommerce/index.php).
+ If you want to try it, go [Here](https://thomas-emad.epizy.com/projects/Ecommerce/index.php).
 ```
  Email: admin@admin.com
  Password: 123456
